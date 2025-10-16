@@ -27,3 +27,38 @@ var swiper = new Swiper(".swiper-component", {
         },
     },
 });
+
+var secswiper = new Swiper(".sec-swiper", {
+    slidesPerView: 1,
+    spaceBetween: 10,
+    pagination: {
+        el: ".swiper-pagi",
+        clickable: true,
+    },
+    navigation: {
+        nextEl: ".chevron-right",
+        prevEl: ".chevron-left",
+    },
+    breakpoints: {
+        640: {
+            slidesPerView: 2,
+            spaceBetween: 20,
+        },
+        800: {
+            slidesPerView: 3,
+            spaceBetween: 40,
+        },
+        1024: {
+            slidesPerView: 4,
+            spaceBetween: 30,
+        },
+    },
+});
+
+var navswiper = new Swiper(".nav-swiper", {
+    navigation: {
+        nextEl: ".nav-swiper-next",
+        prevEl: ".nav-swiper-prev",
+    },
+});
+
