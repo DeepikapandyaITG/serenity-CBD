@@ -613,8 +613,8 @@ ul.gallery {
     justify-content: center;
 }
 
-section.follow-us-gallery-wraper .page-width {
-    padding: 0px 20px;
+section.follow-us-gallery-wraper {
+    padding: 80px 20px;
 }
 
 .follow-us-gallery {
