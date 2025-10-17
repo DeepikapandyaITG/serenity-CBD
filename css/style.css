@@ -154,6 +154,10 @@ img {
     border-radius: 5px;
 }
 
+.primary-btn:hover {
+    opacity: 0.6;
+}
+
 .underline-btn {
     text-decoration: underline;
     text-underline-offset: 5px;
@@ -633,12 +637,14 @@ section.follow-us-gallery-wraper {
 .review {
     display: flex;
     gap: 3px;
+    cursor: pointer;
 }
 
 .vector {
     display: flex;
     gap: 20px;
     align-items: center;
+    cursor: pointer;
 }
 
 .image-with-content {
