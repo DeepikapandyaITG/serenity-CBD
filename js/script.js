@@ -57,8 +57,8 @@ var secswiper = new Swiper(".sec-swiper", {
 
 var navswiper = new Swiper(".nav-swiper", {
     navigation: {
-        nextEl: ".nav-swiper-next",
-        prevEl: ".nav-swiper-prev",
+        nextEl: ".nav-next",
+        prevEl: ".nav-prev",
     },
 });
 
